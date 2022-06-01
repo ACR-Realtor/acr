@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Information</title>
+</head>
+
+<body>
+  <img src="images/crb.jpg" alt="Century 21 SGR LOGO" width="1900">
+  <center>
+    <h2>Contact Information</h2>
+    <p>Email: alberto.castillo@century21sgr.com</p>
+    <p>Phone: (773)387-2997</p>
+    <p>Website: <a href="https://homesforsale.century21.com/CENTURY-21-S.G.R.,-Inc.-7231c/Alberto-Castillo-Jr-7637951a?utm_medium=referral&utm_source=internal&utm_campaign=agent&utm_term=a7637951&referredByAgent=a7637951">albertocrealtor.com</a></p>
+    <p>Office: 1161 W Madison St, Chicago, IL 60607</p>
+  </center>
+  <hr>
+  <h2><a href="index.html">Home</a></h2>
+  <hr>
+  <h2>Enter Information to Contact Alberto Castillo Jr</h2>
+  <form action="mailto:alberto.castillo@century21sgr.com" method="post" enctype="text/plain">
+    <label>Your Name:</label>
+    <input type="text" name="yourName" value=""><br>
+    <label>Your Email:</label>
+    <input type="email" name="yourEmail" value=""><br>
+    <label>Your Mobile Phone:</label>
+    <input type="text" name="yourPhone" value=""><br>
+    <label>Details on How I can be of sevice:</label><br>
+    <textarea name="details" rows="8" cols="80"></textarea><br>
+    <input type="submit" name="">
+
+  </form>
+
+  <!--
+  <link rel="stylesheet" type="text/css" href="https://connectmls.mredllc.com/css/lead-capture.css">
+<div class='submit-form-container'>
+	<div class='submit-form-title'>
+		Enter your information then click Submit to contact Alberto Castillo Jr
+	</div>
+	<form class='lead-form' name='capture' method='post' target='_self' action='https://connectmls.mredllc.com/common/externalAction.jsp?do=dynaconn.soy.setup.leadwidget.SubmitLeadForm'>
+		<div class="lead-row-label reqStar">Name:</div>
+		<div class="lead-row">
+			<input type="text" placeholder="First" name="firstname" value=""/>
+			<input type="text" placeholder="Last" name="lastname" value=""/>
+		</div>
+
+
+		<div class="lead-row-label reqStar">Email:</div>
+		<div class="lead-row"><input type="text" placeholder="Enter email" name="emailaddr" value=""/></div>
+
+
+		<div class="lead-row-phones clearfix">
+			<div class="lead-form-phone">
+				<span>Mobile Phone:</span>
+				<input type="tel" name="mobilephone" value=""/>
+			</div>
+			<div class="lead-form-phone">
+				<span>Home Phone:</span>
+				<input type="tel" name="homephone" value=""/>
+			</div>
+		</div>
+
+
+		<div class="lead-row-label reqStar">Interest:</div>
+		<div class="lead-row">
+			<div class="lead-column">
+				<div class="select-list-styled">
+					<span id="clienttypelabel"></span>
+					<svg class="caret" width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M1.5 0.75L6 5.25L10.5 0.75" stroke="#555555" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+					</svg>
+					<select class="select-list" name="clienttype" id="clienttype" onchange="updateSelect('clienttype')" value="">
+						<option value="A0C68EB21EB53CC5E040010A36011814" name="A0C68EB21EB53CC5E040010A36011814">Buy a Home</option> <option value="A0C68EB21EB63CC5E040010A36011814" name="A0C68EB21EB63CC5E040010A36011814">Buy a Home for the First Time</option> <option value="A0C68EB21EB73CC5E040010A36011814" name="A0C68EB21EB73CC5E040010A36011814">Sell a Home</option> <option value="A0C68EB21EB83CC5E040010A36011814" name="A0C68EB21EB83CC5E040010A36011814">Buy and Sell a Home</option> <option value="A0C68EB21EB93CC5E040010A36011814" name="A0C68EB21EB93CC5E040010A36011814">Rent a Home</option> <option value="A0C68EB21EBA3CC5E040010A36011814" name="A0C68EB21EBA3CC5E040010A36011814">Relocate</option> <option value="A0C68EB21EBB3CC5E040010A36011814" name="A0C68EB21EBB3CC5E040010A36011814">Investment</option> <option value="A0C68EB21EBC3CC5E040010A36011814" name="A0C68EB21EBC3CC5E040010A36011814">Other</option>
+					</select>
+				</div>
+			</div>
+		</div>
+
+		<div class="lead-row-label">Provide details on how I can be of service:</div>
+		<div class="lead-row-details">
+			<textarea type="text" name="notes" maxlength="2048" id="notes" onkeyup="updateNoteCount()" value=""></textarea>
+			<div id="notes-count"></div>
+		</div>
+		<div class="lead-details-remaining"></div>
+
+		<div class="lead-row-label reqStar">Verification Code</div>
+		<div class="lead-row">
+			<img src="https://connectmls.mredllc.com/common/kaptcha.jpg"/>
+			<input type="text" name="kaptcha" placeholder="Enter Code" value=""/>
+		</div>
+		<div class="lead-row">
+			<input type="hidden" name="agentID" id="agentID" value="1008618" />
+			<input type="submit" class="lead-form-submit" value="submit"/>
+		</div>
+	</form>
+</div>
+<script type="text/javascript">
+	(window.updateNoteCount = function() {
+		var notes = document.getElementById("notes"), max = notes.getAttribute("maxlength"),
+			length = notes.value.length, diff = max - length;
+		document.getElementById("notes-count").innerText = "("+diff+" chars remaining)";
+	})();
+	window.updateSelect = function(which) {
+		var select = document.getElementById(which);
+		if (select) document.getElementById(which+"label").innerText = select.options[select.selectedIndex].innerHTML;
+	};
+	window.updateSelect('hstate');
+	window.updateSelect('clienttype');
+</script>
+-->
+  <img src="images\multilogoswhite.jpg" alt="Equal Housing Opportunity" width="200" align="right">
+</body>
+
+</html>
